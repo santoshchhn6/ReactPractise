@@ -19,6 +19,7 @@ const CustomInput: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
       }}
     >
       <input
+        className="input_box"
         ref={inputRef}
         type="text"
         placeholder="Enter the task"
